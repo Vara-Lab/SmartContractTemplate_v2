@@ -16,7 +16,7 @@ pub mod metafns {
 
     // Add your State functions
 
-    pub fn state(state: State) -> CustomStruct {
+    pub fn state(state: State) -> IoGlobalState {
         state
     }
 
